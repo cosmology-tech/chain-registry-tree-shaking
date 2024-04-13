@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chain simplified snap 1`] = `
+{
+  "bech32_prefix": "osmo",
+  "chain_id": "osmosis-1",
+  "chain_name": "osmosis",
+  "slip44": 118,
+  "staking": {
+    "lock_duration": {
+      "time": "1209600s",
+    },
+    "staking_tokens": [
+      {
+        "denom": "uosmo",
+      },
+    ],
+  },
+}
+`;
+
+exports[`Chain type 1`] = `"osmosis-1"`;
