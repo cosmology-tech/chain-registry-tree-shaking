@@ -1,4 +1,4 @@
-import { agoric } from 'interchain-assets';
+import { agoric } from '@chain-registry/assets';
 
 it('list', () => {
     // const result = agoric.map(asset => asset.name);

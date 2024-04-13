@@ -332,11 +332,6 @@
   resolved "https://registry.yarnpkg.com/@chain-registry/types/-/types-0.24.0.tgz#18d0ab8f1d127621b23ba4ed03f96390cc18d0a0"
   integrity sha512-p4HBfSNgbgy+qSiowa86huHVYb3y7z6JYAX5Eb9R2+l5Bu46lszf5Uk2dKSdS+f0/OnmalbjOiCovhaKN82R5w==
 
-"@chain-registry/types@^0.22.0":
-  version "0.22.0"
-  resolved "https://registry.yarnpkg.com/@chain-registry/types/-/types-0.22.0.tgz#be97042fb1f3d9398ed8f89304c8abe2fa9261b5"
-  integrity sha512-Yc6O3uKfn1ztvEhc7z+RT2iR+FxzzTBgRjtCghaFuEHbeAy4h1ynPexJ+goo8vbdL1u24vj710rTrHPkXzEdqQ==
-
 "@chain-registry/utils@1.25.0", "@chain-registry/utils@^1.25.0":
   version "1.25.0"
   resolved "https://registry.yarnpkg.com/@chain-registry/utils/-/utils-1.25.0.tgz#a03e7f2ed50344a9aab677313538294dfd11b017"
@@ -1887,20 +1882,6 @@ inherits@2, inherits@^2.0.1, inherits@~2.0.1, inherits@~2.0.3:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
   integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
-
-interchain-assets@1.39.2:
-  version "1.39.2"
-  resolved "https://registry.yarnpkg.com/interchain-assets/-/interchain-assets-1.39.2.tgz#bf46538b97785e31a85b19c9345e41940d777c75"
-  integrity sha512-m791tlKKSlsBYZdobnGMcKDeNe1ewi6GHfprl5Rz53BXIMy/4AjoL23Gvc+aHLjd/ZEIi6zGnorNtwNudmcScg==
-  dependencies:
-    "@chain-registry/types" "^0.22.0"
-
-interchain-registry@1.39.2:
-  version "1.39.2"
-  resolved "https://registry.yarnpkg.com/interchain-registry/-/interchain-registry-1.39.2.tgz#28881bee98f586f9692357fc693e45b1a1c2ca44"
-  integrity sha512-wJV8xQ9LtuXgAh30unLjlIFX0nC2NnCJF6B2Ra4coMegRQw8tKZ3Bzo2WdTFLhCJ9aPBhx181hzCWcGW59I5Tw==
-  dependencies:
-    "@chain-registry/types" "^0.22.0"
 
 is-arrayish@^0.2.1:
   version "0.2.1"

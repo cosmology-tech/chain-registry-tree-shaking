@@ -1,4 +1,4 @@
-import { osmosis } from 'interchain-registry/named';
+import { osmosis } from 'chain-registry/named';
 
 it('list', () => {
     const result = osmosis.assets.assets.map(asset => asset.name);
