@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AssetList simplified snap 1`] = `
+{
+  "assets": [
+    {
+      "base": "uebl",
+      "coingecko_id": "",
+      "denom_units": [
+        {
+          "denom": "uebl",
+          "exponent": 0,
+        },
+        {
+          "denom": "ebl",
+          "exponent": 6,
+        },
+      ],
+      "description": "The native staking token of 8ball.",
+      "display": "ebl",
+      "images": [
+        {
+          "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/8ball/images/8ball.png",
+          "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/8ball/images/8ball.svg",
+        },
+      ],
+      "logo_URIs": {
+        "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/8ball/images/8ball.png",
+        "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/8ball/images/8ball.svg",
+      },
+      "name": "8ball",
+      "symbol": "EBL",
+    },
+  ],
+  "chain_name": "8ball",
+}
+`;
+
+exports[`AssetList type 1`] = `"8ball"`;
+
+exports[`Chain simplified snap 1`] = `
+{
+  "bech32_prefix": "8ball",
+  "chain_id": "eightball-1",
+  "chain_name": "8ball",
+  "slip44": 118,
+  "staking": {
+    "staking_tokens": [
+      {
+        "denom": "uebl",
+      },
+    ],
+  },
+}
+`;
+
+exports[`Chain type 1`] = `"eightball-1"`;
